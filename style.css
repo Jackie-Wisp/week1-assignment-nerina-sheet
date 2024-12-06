@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(background-sky.jpg);
+}
+.contentbox {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.image-sky {
+    position: relative;
+    background-size: contain;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    
+}
+header{
+    font-family: Alice;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background-color: #1c4587;
+    width: 100%; 
+    position: fixed; 
+    top: 0; 
+    padding: 10px; 
+    
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    align-items: center;
+    font-size: 15px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
