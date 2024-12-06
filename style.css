@@ -32,6 +32,8 @@ header{
     position: fixed; 
     top: 0; 
     padding: 10px; 
+    border-bottom: solid #c9daf8 10px;
+    /* ^ Remember to use SOLID! (Spent 10 mins on this...) */
     
 }
 nav {
@@ -44,4 +46,22 @@ nav {
 a {
     color: white;
     text-decoration: none;
+}
+#mainpage {
+    position: relative; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+.synopsis {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        background: #1c4587;
+        margin-top: 100px;
+        padding: 50px;
+        width: 550px;
+        height: 650px;
+        border: 20px solid black;
 }
