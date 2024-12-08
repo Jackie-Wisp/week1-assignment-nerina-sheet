@@ -55,13 +55,16 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    top: 70px;
+    top: 12vh;
     left: 10vw;
     width: 80%; 
     /* Use a percentage rather than a fixed width so the box is able to flex with window size */
     height: auto; 
-    border: 1px solid black;
-    gap: 20px; 
+    /* border: 1px solid black; */
+    /* ^ Was used to understand positioning/flex */
+    gap: 10px; 
+    padding: 1%;
+
     
 }
      
@@ -71,24 +74,69 @@ a {
     display: flex;
     justify-content: center;
     background: #1c4587;
-    padding: 50px;
-    width: 50%;
+    padding: 100px;
+    width: 28%;
     height: 600px;
-    border: 20px solid black;
+    border: 2px solid white;
     
 } 
 .firstpageimg {
     position: relative;
     top: 10px;
-    left: 150px;
+    left: 10px;
     display: flex;
     justify-content: center;
     background: #1c4587;
-    padding: 50px;
-    width: 50%;
-    height: 100%;
-    
-    
+    padding: 10px;
+    width: 28%;
+    height: 600px;
+    border: 2px solid white;   
+}
+.firstimg {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 2;
+    left: 2;
+    padding: 20%;
+    width: 95%;
+    height: 97%;
+    background-image:  linear-gradient(to top, rgba(130, 162, 231, 1), rgba(130, 162, 231, 0));
+    z-index: 2;
+}
+.Nerina1 {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    color: #c9daf8;
+    position: absolute;
+    display: flex;
+    align-self: flex-end;
+    font-family: Alice;
+    font-size: 50px;
+    font-weight: 100;
+    bottom: 15%;
+    z-index: 3;
+    line-height: 0.5;
+    text-align: center;
+}
+h3 {
+    color: #c9daf8;
+    position: absolute;
+    display: flex;
+    align-self: flex-end;
+    bottom: 5%;
+    z-index: 3;
+    font-family: Alice;
+    font-weight: 100;
+
+}
+.cList {
+
 }
 
         /* position: absolute;
@@ -106,4 +154,5 @@ p {
 }
 ul {
     list-style-type: none;
+    color: white;
 }
