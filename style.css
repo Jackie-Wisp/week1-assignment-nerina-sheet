@@ -198,3 +198,14 @@ ul {
     list-style-type: none;
     color: white;
 }
+footer {
+    font-family: Alice;
+    font-size: 15px;
+    text-align: right;
+     color: white; 
+    width: 100%; 
+    position: fixed; 
+    bottom: 0; 
+    padding: 10px; 
+    
+}
